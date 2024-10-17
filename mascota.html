@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Veterinario Caninos y Felinos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxAaaKrblOItauE-PXe8W2yh5dPdP2ip1oQ&s" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="background-image">
+            <h1>Centro Veterinario</h1>
+            <h2>Caninos y Felinos</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Guardería</a></li>
+                <li><a href="#">Promociones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cuidados" class="section-container">
+            <div class="content">
+                <h2>Cuidados y educación para tu perro</h2>
+                <p>¡Asegura la felicidad de tu mejor amigo! Ofrecemos cuidados completos y educación personalizada para que tu perro tenga una vida larga y saludable.</p>
+                <a href="#" class="button">Ver más...</a>
+            </div>
+            <img src="perrito.png" alt="Imagen de un perro feliz" class="section-image">
+        </section>
+
+        <section id="cita" class="section-container form-section">
+            <h2>Solicita tu cita médica</h2>
+            <form>
+                <div class="form-group">
+                    <label for="mascota">Nombre de tu mascota:</label>
+                    <input type="text" id="mascota" name="mascota" required>
+                </div>
+                <div class="form-group">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required>
+                </div>
+                <div class="form-group">
+                    <label for="raza">Raza:</label>
+                    <input type="text" id="raza" name="raza" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha de la cita:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+                <div class="form-group">
+                    <label for="hora">Hora de la cita:</label>
+                    <input type="time" id="hora" name="hora" required>
+                </div>
+                <button type="submit" class="button">Solicitar cita</button>
+            </form>
+        </section>
+
+        <section id="viaje" class="section-container">
+            <div class="content">
+                <h2>Viaja tranquilo con tu mascota</h2>
+                <p>¡Tus vacaciones no tienen por qué estar incompletas! Ofrecemos servicios para que tu mascota viaje segura y cómoda contigo.</p>
+            </div>
+            <img src="perroviaje.png" alt="Imagen de una mascota viajando en un coche" class="section-image">
+        </section>
+    </main>
+
+    <footer>
+        <p>Centro Veterinario Caninos y Felinos. © Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
